@@ -1,0 +1,55 @@
+<div class="container text-center">
+    <!-- <form class="form-signin" ng-submit="login(form)" novalidate>
+        <div layout="row">
+          <img src="modules/assets/images/headerlogo.png" class="img-fluid"></img>
+        </div>
+        <div layout="row">
+          <label>
+            Swateek's Sample App
+          </label>
+        </div>
+    
+        <span class="border-top"></span>
+        <div layout="row">
+            <label class="login-form-input"><b>Email</b></label>
+            <input id="userEmail" name="email" class="login-form-input" ng-pattern="/^.+@.+\..+$/"
+              required ng-model="user_email"/>
+        </div>
+    
+        <div layout="row">
+            <label class="login-form-input"><b>Password</b></label>
+            <input id="userPassword" type="password" name="password" class="login-form-input"
+              required ng-model="user_password"/>
+        </div>
+    
+        <div layout="row">
+          <button type="submit" class="btn btn-lg btn-primary btn-block">Login</button>
+        </div>
+    </form> -->
+    <div class="col-xl text-center">
+      <div class="row-xl mb-5">
+        <img src="modules/assets/images/headerlogo.png" class="img-fluid"></img>
+      </div>
+      <div class="row-xl mb-5">
+        <h1 class="h3 font-weight-normal text-muted">Swateek's Sample App</h1>
+      </div>
+      <div class="row-xl mb-5">
+        <!-- <div class="col-md-2 offset-md-2"></div> -->
+        <div class="offset-md-2 col-md-8 form-group-sm">
+          <form class="form-signin" ng-submit="login(form)" novalidate>
+            <div class="mb-3">
+              <input id="userEmail" name="email" class="form-control mb-3" ng-pattern="/^.+@.+\..+$/" 
+                  required ng-model="user_email" placeholder="email"/>
+              <input id="userPassword" type="password" name="password" class="form-control mb-3"
+                  required ng-model="user_password" placeholder="password"/>
+              <button type="submit" class="btn btn-lg btn-primary btn-block">Login</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-2 offset-md-2"></div>
+      </div>
+      <div class="row-xl">
+        <p>&copy; &nbsp;Forever & Always &nbsp;<a href="https://about.me/swateek" target="_blank">Swateek Jena</a></p>
+      </div>
+    </div>
+</div>

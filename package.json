@@ -1,0 +1,31 @@
+{
+  "name": "mean",
+  "version": "1.0.0",
+  "description": "A Basic MEAN Stack App",
+  "main": "server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "author": "Swateek Jena",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "angular-cookies": "^1.4.8",
+    "angular-resource": "^1.4.8",
+    "angular-ui-router": "^1.0.25",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "composable-middleware": "^0.3.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "jquery": "^3.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.6",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "popper.js": "^1.16.1"
+  }
+}
